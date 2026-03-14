@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Experiment 2: Employee Management System</title>
-    <!-- Link to external CSS -->
+    <title>Employee Management System</title>
+ 
     <link rel="stylesheet" href="style1.css">
 </head>
 <body>
 
     <h2>Experiment 2: Employee Record System</h2>
 
-    <!-- Input Form -->
+    
     <div class="control-panel">
         <input type="text" id="empName" placeholder="Employee Name">
         <input type="number" id="empId" placeholder="Employee ID">
@@ -25,7 +25,7 @@
         <button onclick="addEmployee()">+ Add Employee</button>
     </div>
 
-    <!-- Operations -->
+    
     <div class="actions">
         <button onclick="renderTable(employees)">Show All</button>
         <button class="secondary" onclick="filterHighSalary()">Filter > ₹50k</button>
@@ -33,7 +33,7 @@
         <button class="secondary" onclick="countDept()">Count by Dept</button>
     </div>
 
-    <!-- Statistics Output -->
+   
     <div class="stats-grid" id="statsPanel" style="display:none;">
         <div class="stat-card">
             <span class="stat-value" id="totalSalary">0</span>
@@ -49,7 +49,7 @@
         </div>
     </div>
 
-    <!-- Data Table -->
+
     <table>
         <thead>
             <tr>
@@ -60,11 +60,11 @@
             </tr>
         </thead>
         <tbody id="tableBody">
-            <!-- Rows injected via JS -->
+           
         </tbody>
     </table>
 
-    <!-- Link to external JS -->
+ 
     <script src="script4.js"></script>
 </body>
 </html>

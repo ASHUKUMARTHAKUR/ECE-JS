@@ -13,7 +13,7 @@ body {
     color: #1e293b;
 }
 
-/* Input Section */
+
 .control-panel {
     background: white;
     padding: 20px;
@@ -33,7 +33,6 @@ input, select {
     box-sizing: border-box;
 }
 
-/* Action Buttons */
 .actions {
     display: flex;
     flex-wrap: wrap;
@@ -55,7 +54,7 @@ button {
 button:hover { opacity: 0.9; }
 button.secondary { background: #64748b; }
 
-/* Results Display */
+
 .stats-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -78,7 +77,6 @@ button.secondary { background: #64748b; }
     display: block;
 }
 
-/* Table Styling */
 table {
     width: 100%;
     border-collapse: collapse;
