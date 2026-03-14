@@ -1,5 +1,5 @@
 for(key in object){
-    //code to be executed
+    
 }
 const person = {
     fname : "Ashu",
